@@ -1,4 +1,3 @@
-//made by Loh Qiao Yan
 
 chrome.commands.onCommand.addListener(function(command) {
 	
