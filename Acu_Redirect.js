@@ -1,4 +1,3 @@
-//made by Loh Qiao Yan
 
 var run = document.URL.includes("aculearn");
 
