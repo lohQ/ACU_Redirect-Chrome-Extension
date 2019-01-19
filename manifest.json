@@ -1,0 +1,31 @@
+{
+ "name": "Redirect Extension",
+ "description": "Used to redirect to video source from AcuStudio",
+ "version": "1.0",
+ "permissions": [
+   "activeTab"
+ ],
+ "background": {
+   "scripts": ["EventListener.js",
+				"Acu_Redirect.js",
+				"Toggle_Play-Pause.js"],
+   "persistent": false
+ },
+ "commands": {
+   "start_acu-redirect": {
+     "suggested_key": {
+	   "windows": "Ctrl+Shift+Right",
+	   "mac": "Ctrl+Shift+Right"
+	 }, 
+	 "description": "to redirect the page to its video link"
+   },
+   "toggle_play-pause": {
+	 "suggested_key": {
+	   "windows": "Ctrl+Space",
+	   "mac": "Command+Space"
+	 },
+	 "description": "to toggle the play/pause status of the video"
+   }
+ },
+ "manifest_version": 2
+}
